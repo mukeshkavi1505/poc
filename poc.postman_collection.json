@@ -1,0 +1,346 @@
+{
+	"id": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+	"name": "poc",
+	"description": "",
+	"order": [
+		"6417a9bb-dee6-70c5-6a54-669b1a5f1ac8",
+		"7eb3b727-b824-b045-c381-b522d97ab42c",
+		"807d1b43-de59-4f67-877c-46c59cd2aeb6",
+		"2afb3977-1bd4-03e2-f2fd-1c4eb5784b2e",
+		"24668840-7531-b788-f299-1e9397d03a04",
+		"5de9a9c5-bff9-5e65-d815-c74816de1ef6",
+		"3a12e3c8-3b0f-a342-b33c-a56878916cea",
+		"26a29dd2-cc8a-f2f3-1968-407d516770b3",
+		"43e9fb27-0e13-2959-2ed7-acdb4f08eb39",
+		"b7ff469b-50ca-de8a-7080-137b1df57ce6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1570544968123,
+	"owner": "1134702",
+	"public": false,
+	"requests": [
+		{
+			"id": "24668840-7531-b788-f299-1e9397d03a04",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:8080/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "manupatel",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570597290026,
+			"name": "localhost:8080/login by admin",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": []
+		},
+		{
+			"id": "26a29dd2-cc8a-f2f3-1968-407d516770b3",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtdWtlc2hzaGFoIiwiaWF0IjoxNTcwNTk5MDE4LCJleHAiOjE1NzEyMDM4MTh9.B1ltan2QIdr2NEf3Gd_j4pJdP3Tz9Bt6-2qbDlN8SKISuiXQQQp9dyp8WC0aF_5U3yhmN18EbJiyGYgrgUHmDw\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtdWtlc2hzaGFoIiwiaWF0IjoxNTcwNTk5MDE4LCJleHAiOjE1NzEyMDM4MTh9.B1ltan2QIdr2NEf3Gd_j4pJdP3Tz9Bt6-2qbDlN8SKISuiXQQQp9dyp8WC0aF_5U3yhmN18EbJiyGYgrgUHmDw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/userid/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570599046264,
+			"name": "localhost:8080/user by id",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": []
+		},
+		{
+			"id": "2afb3977-1bd4-03e2-f2fd-1c4eb5784b2e",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:8080/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "mukeshshah",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570597272111,
+			"name": "localhost:8080/login by user",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": []
+		},
+		{
+			"id": "3a12e3c8-3b0f-a342-b33c-a56878916cea",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/all-users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/user/all-users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570598359752,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "43e9fb27-0e13-2959-2ed7-acdb4f08eb39",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/delete/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570598969775,
+			"name": "localhost:8080/user delete by id",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": []
+		},
+		{
+			"id": "5de9a9c5-bff9-5e65-d815-c74816de1ef6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/admin/add-admin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570600463798,
+			"name": "localhost:8080/admin/add-admin",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": [],
+			"rawModeData": "{\n\"firstName\":\"Manu\",\n\"lastName\": \"Patel\",\n\"username\": \"manupatel\",\n\"password\": \"test\", \n\"age\": 30\n}"
+		},
+		{
+			"id": "6417a9bb-dee6-70c5-6a54-669b1a5f1ac8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/add-user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570596979495,
+			"name": "localhost:8080/user/add-user",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": [],
+			"rawModeData": "{\n\"firstName\":\"Mukesh\",\n\"lastName\": \"Shah\",\n\"username\": \"mukeshshah\",\n\"password\": \"test\", \n\"age\": 30\n}"
+		},
+		{
+			"id": "7eb3b727-b824-b045-c381-b522d97ab42c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtdWtlc2hzaGFoIiwiaWF0IjoxNTcwNTk3MDg5LCJleHAiOjE1NzEyMDE4ODl9.GDHom3OqLeMpTVM_tyrXAGwig8s6svWFYtMM2bsNhk96sa1GvHoqfLKF9sjOrpctGGVQivSmkhvbQXxyi_0Syw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtdWtlc2hzaGFoIiwiaWF0IjoxNTcwNTk3MDg5LCJleHAiOjE1NzEyMDE4ODl9.GDHom3OqLeMpTVM_tyrXAGwig8s6svWFYtMM2bsNhk96sa1GvHoqfLKF9sjOrpctGGVQivSmkhvbQXxyi_0Syw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/update-user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570598042231,
+			"name": "localhost:8080/user/update-user",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": [],
+			"rawModeData": "{\n\"firstName\":\"Mukesh1\",\n\"lastName\": \"Shah1\",\n\"username\": \"mukeshshah\",\n\"age\": 30\n}"
+		},
+		{
+			"id": "807d1b43-de59-4f67-877c-46c59cd2aeb6",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/users/all-users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/users/all-users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570545133042,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b7ff469b-50ca-de8a-7080-137b1df57ce6",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW51cGF0ZWwiLCJpYXQiOjE1NzA1OTcyODMsImV4cCI6MTU3MTIwMjA4M30.b_4e1KOBqsRL5X9SRNU5zVBrBugFlxzPjoh3gRfiFfiZw0hlQUgxMycDRArPP8rivnE7ve4ltFeKhXWz_vnjmQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/username/manupatel",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570598858888,
+			"name": "localhost:8080/user by username",
+			"description": "",
+			"collectionId": "a8c0e8e5-0ded-b067-901e-f4e45f70fff6",
+			"responses": []
+		}
+	]
+}
